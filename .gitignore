@@ -1,0 +1,38 @@
+
+# Created by https://www.gitignore.io/api/go,hugo,visualstudiocode
+
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+### Hugo ###
+hugo.exe
+/public/
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# End of https://www.gitignore.io/api/go,hugo,visualstudiocode
+
+vendor/
+_vendor*
+/terraform-provider-gogs*
+/.terraform
+/terraform.tfvars
+/terraform.tfstate
