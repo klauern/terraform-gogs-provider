@@ -36,3 +36,4 @@ _vendor*
 /.terraform
 /terraform.tfvars
 /terraform.tfstate
+dist/

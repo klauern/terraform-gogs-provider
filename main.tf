@@ -11,7 +11,7 @@ provider "gogs" {
     base_url = "${var.gogs_base_url}"
 }
 
-resource "gogs_user" "bob" {
+resource "gogs_user" "user" {
     login = "bob"
     password = "password"
     email = "bob@example.com"
